@@ -1,4 +1,4 @@
-# 🎯 Louix's Dotfiles
+# Louix's Dotfiles
 
 > A comprehensive collection of my Linux configuration files for a modern, efficient, and beautiful desktop environment.
 
@@ -168,30 +168,9 @@ dotfiles/
 - `htop` - Process viewer
 - `btop` - Better htop
 
-## 🤝 **Contributing**
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 **Acknowledgments**
 
 - [Hyprland](https://hyprland.org/) - Modern Wayland compositor
 - [JaKooLit](https://github.com/JaKooLit) - Original Hyprland configuration inspiration
 - [Neovim](https://neovim.io/) - Modern Vim
 - [Fish Shell](https://fishshell.com/) - User-friendly shell
-
-## 📞 **Contact**
-
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Email**: your.email@example.com
-
----
-
-**⭐ If you find this useful, please give it a star!** 
