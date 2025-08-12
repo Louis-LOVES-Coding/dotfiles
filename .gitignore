@@ -1,0 +1,343 @@
+# 🌟 Dotfiles .gitignore
+# Exclude sensitive and unnecessary files from version control
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Cache directories
+.cache/
+*.cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Rust
+target/
+Cargo.lock
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.brackets.json
+
+# Vim/Neovim
+*.swp
+*.swo
+*~
+.netrwhist
+.viminfo
+
+# Hyprland specific
+.hyprland_history
+.hyprland_socket
+
+# Waybar
+waybar/waybar-updates
+
+# Browser data
+google-chrome/
+mozilla/firefox/
+brave/
+chromium/
+
+# SSH keys and sensitive data
+.ssh/
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+known_hosts
+
+# GPG
+.gnupg/
+*.gpg
+*.asc
+
+# Passwords and secrets
+passwords.txt
+secrets.txt
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backup files
+*.bak
+*.backup
+*_backup
+backup/
+backups/
+
+# Large media files
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.ico
+*.pdf
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Application specific
+# Discord
+discord/Cookies
+discord/Cookies-journal
+discord/Network/Cookies
+discord/Network/Cookies-journal
+
+# Spotify
+spotify/prefs
+spotify/Users/*/prefs
+
+# Steam
+steam/userdata/
+steam/steamapps/
+steam/steam.exe
+steam/steamerrorreporter.exe
+
+# Gaming
+.wine/
+.wine64/
+.wine32/
+
+# Development tools
+# Docker
+.docker/
+
+# Kubernetes
+.kube/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Ansible
+*.retry
+
+# Sensitive config files
+# These might contain API keys, tokens, etc.
+configstore/
+.env
+.envrc
+
+# Local overrides
+local.conf
+local.rc
+*.local
+
+# OS specific
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+*.lnk
+*.url
+
+# Linux
+*~
+
+# Package manager lock files (keep some, ignore others)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+composer.lock
+Gemfile.lock
+Pipfile.lock
+poetry.lock
+
+# But keep these for reproducibility
+# Cargo.lock (for Rust projects)
+# requirements.txt (for Python projects)
+# go.mod (for Go projects)
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local Netlify folder
+.netlify
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.* 
